@@ -1,0 +1,126 @@
+html, body{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:cornsilk;
+}
+
+#info{
+	margin-left:10;
+	text-align:center;
+}
+
+form{
+	position:relative;
+	width:200px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+form span{
+	position:relative;
+	width:100%;
+}
+
+form label{
+	position:relative;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	text-align:center;
+}
+
+label{
+	font-size:20px;
+}
+
+#listeTop{
+	padding: 5px;
+	position:absolute;
+	background-color:black;
+	right:0px;
+	display:none;
+	border:1px solid black;
+	border-radius:10px;
+}
+
+#listeTop li{
+	list-style:none;
+	line-height:1.5;
+	position:relative;
+	text-align:right;
+}
+
+#aLogo{
+	positon:relative;
+	height:88%;
+}
+
+#logo{
+	left:10px;
+	position:relative;
+	height:100%;
+}
+
+#logs{
+	position:relative;
+	margin-left:auto;
+	padding:20px;
+	text-align:right;
+	display:inline;
+}
+
+#soustitre{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	width:20%;
+	font-size:50px;
+	color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px red, 0 0 15px black;
+}
+
+#titre{
+	position:relative;
+	height:100%;
+	margin-left:5%;
+	width:20%;
+	padding-top:30px;
+}
+
+#top{
+	background-color:black;
+	color:cornsilk;
+	width:100%;
+	height:65px;
+	display:flex;
+	align-items:center;
+	white-space:nowrap;
+}
+
+#top a{
+	color:yellow;
+}
+
+#infoForm{
+	position:absolute;
+	right:20%;
+	height:40px;
+	display:flex;
+	align-items: center;
+	border-radius: 0px 0px 15px 15px;
+	box-shadow:inset 0px 0px 0px 1px black;
+	padding:10px;
+	background-color:white;
+	z-index:100;
+}
+
+@media screen and (max-width: 640px) {
+  #titre{
+	padding-top:50px;
+	font-size:20px;
+  }
+}
